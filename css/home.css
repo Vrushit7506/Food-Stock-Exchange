@@ -1,0 +1,15 @@
+/*  This CSS Is For Elements Only Specific To 
+    Home Page (Only unique Part) */
+
+body {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    display: block;
+  }
+
+  h2 {
+  }
+}
