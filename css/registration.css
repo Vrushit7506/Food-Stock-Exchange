@@ -1,0 +1,73 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+root {
+    --orange: #ef6848;
+    --black: #181818;
+    --darkGray: #313131;
+    --white: #ffffff;
+    --lightOrange: #ff9c51;
+    --yellowOrange: #ffb650;
+}
+
+body {
+    display: none;
+}
+
+@media only screen and (max-width: 500px){
+    body {
+    display:block;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--black);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.logo{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    letter-spacing: 3px;
+    color: var(--orange);
+}
+
+.input .details{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.details input{
+    background-color: #313131;
+    outline: none;
+    margin-top: 1em;
+    border: none;
+    border-radius: 25px;
+    width: 75%;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    box-shadow: 2px 2px 4px #030303c4;
+}
+/* #ff8500 */
+.details button{
+    background-image: linear-gradient(to right,#ff4800,#ff8500);
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    color: var(--white);
+    font-family: "Montserrat", sans-serif;
+}
+
+.details .label{
+    color: var(--orange);
+}
+
+
+}
