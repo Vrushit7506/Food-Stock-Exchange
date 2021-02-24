@@ -8,29 +8,53 @@
 
   <!-- Add CSS Files Here -->
 
-  <!-- Keep The 'styles.css' At The Top -->
-  <!-- The Order Is Important -->
+  <!--'styles.css' At The Top -->
 
   <link rel="stylesheet" href="./css/styles.css">
-
+  <link rel="stylesheet" href="./css/registration.css">
   <!-- End CSS -->
 
-  <title>Food Stock Exchange</title>
+  <title>Customer Details</title>
 </head>
 
 <body>
 
+  <div class="logo">
+    <img src="./images/logo.png" alt="">
+  </div>
+
   <!-- Start Header -->
 
-  <header></header>
+  <header>
+    <a href="./home.html">Home Page</a>
+    <h2>Please Enter your Details</h2>
+    <br> <br>
+    <hr>
+  </header>
 
   <!-- End Header -->
 
   <!-- Start Main -->
 
-  <main>
-    <h1>Loading Page with Animation + Register Page</h1>
-    <a href="./home.html">Home Page</a>
+  <main class="input">
+
+    <form class="details" action="">
+
+      <label class="label" for="name">Enter Your Name </label>      
+      <br>
+      <input type="text" name="name" id="name" > <br><br>
+
+      <label class="label" for="name">Enter Your Table Number</label> 
+      <br>
+      <input type="number" name="table" id="table" > <br> <br>
+
+      <label class="label" for="mobile">Mobile Number</label> <br>
+      <input type="number" name="mobile" id="mobile" >
+
+      <br> <br>
+      <button type="submit">SUBMIT</button>
+    </form>
+
   </main>
 
   <!-- End Main -->
