@@ -27,4 +27,4 @@ The Uploaded Images Are Compressed Upto 40% Only
 3. 
 
 
-Link Is:- 
+Link Is:- https://food-stock-exchange.herokuapp.com/
