@@ -19,7 +19,7 @@
 
 </head>
 
-<body class="homePage">
+<body class="homePageBody">
   <!-- ------------------------------------------- -->
   <!-- Start Header -->
 
@@ -31,7 +31,7 @@
   <!-- ------------------------------------------- -->
   <!-- Start Main -->
 
-  <main class="homePage">
+  <main class="homePage mainSection active" id="homePage">
     <div class="search">
       <h3>
         What do you want to cook today?
@@ -104,18 +104,73 @@
     </div>
   </main>
 
+  <main class="explorePage mainSection" id="explorePage">
+    <h1>Explore</h1>
+
+  </main>
+
+  <main class="chatBotPage mainSection" id="chatBotPage">
+    <h1>Chat-Bot</h1>
+  </main>
+
+  <main class="orderPage mainSection" id="orderPage">
+    <h1>Order Page</h1>
+  </main>
+
   <!-- End Main -->
   <!-- ------------------------------------------- -->
   <!-- Start Footer -->
 
-  <footer></footer>
+  <footer>
+    <div class="footerGrid">
+      <li id="homeSlide" class="footerTab active" onclick="footerSwitch(this, 'homePage')">
+        <img src="./images/home.png" alt="">
+        <img src="./images/home1.png" alt="">
+        <span>Home</span>
+      </li>
+      <li id="exploreSlide" class="footerTab" onclick="footerSwitch(this, 'explorePage')">
+        <img src="./images/explore.png" alt="">
+        <img src="./images/explore1.png" alt="">
+        <span>Explore</span>
+      </li>
+      <li id="chatSlide" class="footerTab" onclick="footerSwitch(this, 'chatBotPage')">
+        <img src="./images/chat.png" alt="">
+        <img src="./images/chat1.png" alt="">
+        <span>Chat</span>
+      </li>
+      <li id="orderSlide" class="footerTab" onclick="footerSwitch(this, 'orderPage')">
+        <img src="./images/ordered.png" alt="">
+        <img src="./images/ordered1.png" alt="">
+        <span>Order</span>
+      </li>
+    </div>
+  </footer>
 
   <!-- End Footer -->
   <!-- ------------------------------------------- -->
   <!-- Add JS Files Here -->
+
+  <script>
+    function footerSwitch(clickedTab, mainId) {
+      var footerTabs = document.getElementsByClassName('footerTab');
+      for (let i = 0; i < footerTabs.length; i++) {
+        footerTabs[i].classList.remove("active");
+      }
+      clickedTab.classList.add("active");
+
+      var mainSections = document.getElementsByClassName('mainSection');
+      for (let i = 0; i < mainSections.length; i++) {
+        mainSections[i].classList.remove("active");
+      }
+      var viewSection = document.getElementById(mainId);
+      viewSection.classList.add("active");
+    }
+  </script>
 
   <!-- End JS -->
 
 </body>
 
 </html>
+
+<!-- #A9A9A9 -->
