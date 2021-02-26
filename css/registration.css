@@ -14,7 +14,7 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-  body {
+  .RegistrationPage {
     display: block;
     margin: 0;
     box-sizing: border-box;
@@ -22,23 +22,23 @@ body {
     font-family: "Raleway", sans-serif;
   }
 
-  .logo {
+  .RegistrationPage .logo {
     text-align: center;
     height: 150px;
   }
 
-  header {
+  .RegistrationPage header {
     text-align: center;
     letter-spacing: 3px;
     color: var(--orange);
   }
 
-  .input .details {
+  .RegistrationPage .input .details {
     margin-top: 2em;
     text-align: center;
   }
 
-  .details input {
+  .RegistrationPage .details input {
     background-color: #313131;
     outline: none;
     margin-top: 1em;
@@ -53,18 +53,18 @@ body {
     box-shadow: 2px 2px 4px #030303c4;
   }
   /* #ff8500 */
-  .details button {
+  .RegistrationPage .details button {
     background-image: linear-gradient(to right, #ff4800, #ff8500);
     height: 30px;
     width: 100px;
-    border-radius: 5px;
+    border-radius: 25px;
     color: var(--white);
     font-family: "Montserrat", sans-serif;
     outline: none;
     border: none;
   }
 
-  .details .label {
+  .RegistrationPage .details .label {
     color: var(--orange);
   }
 }
