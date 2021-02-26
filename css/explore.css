@@ -1,22 +1,20 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 
 root {
-    --orange: #ef6848;
-    --black: #181818;
-    --darkGray: #313131;
-    --white: #ffffff;
-    --lightOrange: #ff9c51;
-    --yellowOrange: #ffb650;
+  --orange: #ef6848;
+  --black: #181818;
+  --darkGray: #313131;
+  --white: #ffffff;
+  --lightOrange: #ff9c51;
+  --yellowOrange: #ffb650;
 }
 
 /* body {
     display: none;
 } */
 
-
-@media only screen and (max-width: 500px){
-    /* body {
+@media only screen and (max-width: 500px) {
+  /* body {
     display: block;
     margin: 0;
     box-sizing: border-box;
@@ -24,191 +22,67 @@ root {
     font-family: "Raleway", sans-serif;
     } */
 
-    /* Heading */
-    .explorePage .explore{
-        color: white;
-        margin-left: 2em;
-        text-align: center;
-        font-family: "Raleway", sans-serif;
-        letter-spacing: 5px;
-        border-bottom: 2px solid #ef6848;
-        width: 9em;
-    }
+  /* Heading */
+  .explorePage .explore {
+    color: white;
+    margin-left: 2em;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 5px;
+    border-bottom: 2px solid #ef6848;
+    width: 9em;
+  }
 
-    /* Cusines  */
-    .explorePage .cusines{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-column-gap: 0.3em;
-        grid-row-gap: 0.5em;
-        margin: 1em;
-    }
+  /* Cusines  */
+  .explorePage .cusines {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0.3em;
+    grid-row-gap: 0.5em;
+    margin: 1em;
+  }
 
-    .explorePage .cusines .cusinecover{
-        border-radius: 20px;
-        padding: 5px;
-    }
+  .explorePage .cusines .cusinecover {
+    border-radius: 20px;
+    padding: 5px;
+  }
 
-    .explorePage .cusines .label{
-        letter-spacing: 1px;
-    }
+  .explorePage .cusines .label {
+    letter-spacing: 1px;
+  }
 
-    .cusines .northindian{
-        position: relative;
-    }
+  .explorePage .heading h2 {
+    margin-bottom: 5px;
+  }
 
-    .cusines .northindian .label{
-        position: absolute;
-        top: 121px;
-        background-color: black;
-        opacity: .7;
-        height: 45px;
-        color: white;
-        width: 164px;
-        border-radius: 13px;
-        left: 5px;
-        font-family: "Raleway", sans-serif;
-    }
+  .cusines .label h4 {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 14px;
+  }
 
-    .cusines .label h4{
-        margin-left: 15px;
-    }
+  .cusines .cuisine1 {
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+  }
 
-    .cusines .southindian{
-        position: relative;
-    }
+  .cusines .cuisine1 .photo {
+    width: 175px;
+    height: 175px;
+    overflow: hidden;
+  }
 
-    .cusines .southindian .label{
-        position: absolute;
-        top: 121px;
-        background-color: black;
-        opacity: .7;
-        height: 45px;
-        color: white;
-        width: 165px;
-        border-radius: 13px;
-        left: 5px;
-        font-family: "Raleway", sans-serif;
-    }
-
-    .cusines .chinese{
-        position: relative;
-    }
-
-    .cusines .chinese .label{
-        position: absolute;
-        top: 121px;
-        background-color: black;
-        opacity: .7;
-        height: 45px;
-        color: white;
-        width: 164px;
-        border-radius: 13px;
-        left: 5px;
-        font-family: "Raleway", sans-serif;
-    }
-
-    .cusines .Italian{
-        position: relative;
-    }
-
-    .cusines .Italian .label{
-        position: absolute;
-        top: 121px;
-        background-color: black;
-        opacity: .7;
-        height: 45px;
-        color: white;
-        width: 162px;
-        border-radius: 13px;
-        left: 5px;
-        font-family: "Raleway", sans-serif;
-    }
-    .cusines .breads{
-        position: relative;
-    }
-
-    .cusines .breads .label{
-        position: absolute;
-        top: 121px;
-        background-color: black;
-        opacity: .7;
-        height: 47px;
-        color: white;
-        width: 160px;
-        border-radius: 13px;
-        left: 5px;
-        font-family: "Raleway", sans-serif;
-    }
-
-    .cusines .mexican{
-        position: relative;
-    }
-
-    .cusines .mexican .label{
-        position: absolute;
-        top: 121px;
-        background-color: black;
-        opacity: .7;
-        height: 47px;
-        color: white;
-        width: 163px;
-        border-radius: 13px;
-        left: 5px;
-        font-family: "Raleway", sans-serif;
-    }
-
-    .cusines .snacks{
-        position: relative;
-        margin-top: -15px;
-    }
-
-    .cusines .snacks .label{
-        position: absolute;
-        top: 121px;
-        background-color: black;
-        opacity: .7;
-        height: 47px;
-        color: white;
-        width: 165px;
-        border-radius: 13px;
-        left: 5px;
-        font-family: "Raleway", sans-serif;
-    }
-
-    .cusines .dessert{
-        position: relative;
-        margin-top: -15px;
-    }
-
-    .cusines .dessert .label{
-        position: absolute;
-        top: 121px;
-        background-color: black;
-        opacity: .7;
-        height: 47px;
-        color: white;
-        width: 163px;
-        border-radius: 13px;
-        left: 5px;
-        font-family: "Raleway", sans-serif;
-    }
-
-    .cusines .beverages{
-        position: relative;
-    }
-
-    .cusines .beverages .label{
-        position: absolute;
-        top: 121px;
-        background-color: black;
-        opacity: .7;
-        height: 49.5px;
-        color: white;
-        width: 163px;
-        border-radius: 13px;
-        left: 5px;
-        font-family: "Raleway", sans-serif;
-    }
-
+  .cusines .cuisine1 .label {
+    position: absolute;
+    top: 121px;
+    background-color: black;
+    opacity: 0.7;
+    height: 30%;
+    color: white;
+    width: 100%;
+    border-radius: 13px;
+    left: 5px;
+    font-family: "Raleway", sans-serif;
+  }
 }
