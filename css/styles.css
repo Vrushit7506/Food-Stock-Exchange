@@ -44,7 +44,7 @@ h6 {
 p {
 }
 
-.pushUpButton {
+/* .pushUpButton {
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
     10px 10px 15px rgba(70, 70, 70, 0.12);
   border: 8px solid #ececec;
@@ -58,4 +58,4 @@ p {
     inset 10px 10px 15px rgba(70, 70, 70, 0.12);
   border: 8px solid #ececec;
   outline: none;
-}
+} */
