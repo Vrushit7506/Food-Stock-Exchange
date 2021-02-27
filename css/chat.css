@@ -1,0 +1,49 @@
+.chatBotPage .intro {
+  height: 10vh;
+  margin-left: 20px;
+}
+
+.chatBotPage .intro h1 {
+  color: white;
+  font-size: 1.2rem;
+  margin: 0;
+}
+.chatBotPage .intro span {
+  color: #9b9b9b;
+  font-size: 0.8rem;
+}
+
+.chatBotPage .chattingArea {
+  height: 65vh;
+  margin: 0 20px;
+}
+
+.chatBotPage .chatUser {
+  height: 5vh;
+  width: 90%;
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chatBotPage .chatUser input {
+  width: 82%;
+  height: 2.5rem;
+  line-height: 1.7rem;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 20px;
+  border: 2px solid #202020;
+  background-color: transparent;
+  color: white;
+  outline: none;
+}
+
+.chatBotPage .chatUser .send {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
