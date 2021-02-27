@@ -199,11 +199,6 @@ body {
     overflow: hidden;
   }
 
-  .explorePage {
-    height: 650px;
-    overflow-y: scroll;
-  }
-
   footer {
     position: absolute;
     background-color: #2b2b2b;

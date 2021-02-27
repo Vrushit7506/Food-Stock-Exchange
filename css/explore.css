@@ -22,6 +22,11 @@ root {
     font-family: "Raleway", sans-serif;
     } */
 
+  .explorePage {
+    height: 650px;
+    overflow-y: scroll;
+  }
+
   /* Heading */
   .explorePage .explore {
     color: white;
