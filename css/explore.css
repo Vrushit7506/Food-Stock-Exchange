@@ -38,6 +38,16 @@ root {
     width: 9em;
   }
 
+  .explorePage {
+    overflow-y: hidden;
+  }
+
+  .explorePage .cuisinelisting {
+    height: 600px;
+    overflow-y: scroll;
+    margin-top: 20px;
+  }
+
   /* Cusines  */
   .explorePage .cusines {
     display: grid;
