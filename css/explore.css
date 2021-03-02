@@ -9,17 +9,21 @@ root {
   --yellowOrange: #ffb650;
 }
 
+/* body {
+    display: none;
+} */
+
 @media only screen and (max-width: 500px) {
-  body {
+  /* body {
     display: block;
     margin: 0;
     box-sizing: border-box;
     background-color: var(--black);
     font-family: "Raleway", sans-serif;
-    }
+    } */
 
   .explorePage {
-    height: 600px;
+    height: 650px;
     overflow-y: scroll;
   }
 
