@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+root {
+    --orange: #ef6848;
+    --black: #181818;
+    --darkGray: #313131;
+    --white: #ffffff;
+    --lightOrange: #ff9c51;
+    --yellowOrange: #ffb650;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .orderPage .wrapper{
+        margin: 1em;    
+        display: grid;
+        grid-template-columns: 35% 45% 20%;
+        font-family: "Raleway", sans-serif;
+        
+    }
+
+    .orderPage .wrapper .name h2, .orderPage .wrapper .quantity h2, .orderPage .wrapper .price h2{
+        letter-spacing: 5px;
+        border-bottom: 2px solid #ef6848;
+        color: white;
+    }
+
+
+
+
+}
