@@ -11,7 +11,7 @@ root {
 
 @media only screen and (max-width: 500px) {
   .orderPage .orderGrid {
-    margin: 0 5px;
+    margin: 10px 5px;
     padding: 0 15px;
     height: 60vh;
     overflow-y: scroll;
