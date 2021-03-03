@@ -35,13 +35,6 @@ body {
     overflow: hidden;
   }
 
-  .homePageBody header {
-    padding: 5px 20px 0px;
-    display: flex;
-    justify-content: center;
-    color: wheat;
-  }
-
   .homePageBody .mainSection {
     display: none;
   }
@@ -63,17 +56,21 @@ body {
   }
 
   .homePage .search input {
-    background-color: #313131;
     outline: none;
     border: none;
-    border-radius: 5px;
     width: 95%;
-    height: 2.5em;
-    line-height: 2.5em;
+    height: 2.7em;
+    line-height: 2.6em;
     padding-left: 15px;
     font-family: "Montserrat", sans-serif;
     color: white;
-    box-shadow: 2px 2px 4px #030303c4;
+    border-radius: 10px;
+    border: 2px solid #3a3a3a;
+    background-color: transparent;
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.5),
+      5px 5px 15px rgba(82, 82, 82, 0.12),
+      inset -5px -5px 15px rgba(0, 0, 0, 0.5),
+      inset 5px 5px 15px rgba(92, 92, 92, 0.12);
   }
 
   .homePage .search input:active,

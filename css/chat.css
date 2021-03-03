@@ -14,7 +14,7 @@
 }
 
 .chatBotPage .chattingArea {
-  height: 60vh;
+  height: 50vh;
   margin: 0 20px;
   overflow: hidden;
   overflow-y: scroll;
@@ -27,14 +27,40 @@
 
 .chatBotPage .chatUser {
   height: 5vh;
-  width: 90%;
-  margin: 0 20px;
+  width: 100%;
+  margin: 0 0;
   padding-bottom: 10px;
   display: flex;
   justify-content: space-around;
 }
 
-.chatBotPage .chatUser input {
+.chatBotPage .chatUser button {
+  width: 50%;
+  outline: none;
+  border: none;
+  background-color: #0f1014;
+}
+
+.chatBotPage .chatUser button.yesBtn {
+  background-image: linear-gradient(45deg, #259e00, #3bb43b);
+}
+
+.chatBotPage .chatUser button p {
+  margin: 0;
+  color: white;
+}
+
+.chatBotPage .chatUser button p:nth-child(1) {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.chatBotPage .chatUser button p:nth-child(2) {
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+/* .chatBotPage .chatUser input {
   width: 82%;
   height: 2.5rem;
   line-height: 1.7rem;
@@ -64,7 +90,7 @@
 .chatBotPage .chatUser .send img {
   width: 60%;
   padding: 38% 23%;
-}
+} */
 
 .chatBotPage .chattingArea .chat {
   background-color: #0f1014;

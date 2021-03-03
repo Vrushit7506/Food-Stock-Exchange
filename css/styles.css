@@ -53,6 +53,14 @@ p {
   margin-left: 10px;
 }
 
+header {
+  padding: 5px 20px 0px;
+  display: flex;
+  justify-content: center;
+  color: wheat;
+  height: 5%;
+}
+
 span.headingName {
   height: 25px;
   display: inline-block;
