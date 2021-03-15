@@ -1,3 +1,7 @@
+.chatBotPage.mainSection {
+  max-height: calc(100vh - 125px);
+}
+
 .chatBotPage .intro {
   height: 10vh;
   margin-left: 20px;
@@ -14,7 +18,7 @@
 }
 
 .chatBotPage .chattingArea {
-  height: 62vh;
+  max-height: calc(100vh - 300px);
   margin: 0 20px;
   overflow: hidden;
   overflow-y: scroll;
