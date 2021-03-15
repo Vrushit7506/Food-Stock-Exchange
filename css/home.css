@@ -202,7 +202,7 @@ body {
   }
 
   footer {
-    position: absolute;
+    position: fixed;
     background-color: #2b2b2b;
     display: block;
     width: 100%;
